@@ -1,5 +1,3 @@
-[![CircleCI](https://circleci.com/gh/adobe/aem-sample-we-retail-journal/tree/master.svg?style=svg)](https://circleci.com/gh/adobe/aem-sample-we-retail-journal/tree/master)
-
 # We.Retail Journal Single Page Applications
 
 Contains We.Retail Journal SPAs for authoring on AEM.
