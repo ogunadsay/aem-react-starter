@@ -7,7 +7,7 @@ class HelloWorld extends Component{
         if(this.props.displayMessage){
             return(
                 <div className="cmp-helloworld">
-                    <h1 className="cmo-helloworld_message">{this.props.displayMessage}></h1>
+                    <h1 className="cmp-helloworld_message">{this.props.displayMessage}</h1>
                 </div>
             )
         }

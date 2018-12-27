@@ -16,6 +16,8 @@
 require('./components/Text');
 require('./components/Image');
 require('./components/HelloWorld');
+require('./components/Hero/Hero');
+require('./components/Button/Button');
 require('./components/Weather');
 require('./components/Navigation');
 require('./components/Page');

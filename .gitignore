@@ -19,3 +19,5 @@ react-app/coverage
 **/atlassian-ide-plugin.xml
 **/.vlt-sync.log
 **/.vlt-sync-config.properties
+
+react-app/images/

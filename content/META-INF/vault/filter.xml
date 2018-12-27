@@ -2,6 +2,6 @@
 <workspaceFilter version="1.0">
     <filter root="/apps/we-retail-journal"/>
     <filter root="/conf/we-retail-journal"/>
-    <filter root="/content/we-retail-journal"/>
-    <filter root="/content/dam/we-retail-journal"/>
+    <filter root="/content/we-retail-journal" mode="merge"/>
+    <filter root="/content/dam/we-retail-journal" mode="merge"/>
 </workspaceFilter>

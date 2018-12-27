@@ -1,0 +1,25 @@
+@import './fonts';
+@import '~styles/mixins';
+
+body {
+  font-family: 'SohoGothicPro', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+button {
+  padding: 0;
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}

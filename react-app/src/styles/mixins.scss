@@ -1,0 +1,178 @@
+@import 'variables';
+
+@mixin media-xs {
+  @media (max-width: 374px) {
+    @content;
+  }
+}
+
+@mixin media-mobile {
+  @media (max-width: $mobile-width) {
+    @content;
+  }
+}
+
+@mixin media-mobile-1 {
+  @media (max-width: $mobile-width - 1) {
+    @content;
+  }
+}
+
+@mixin media-tablet {
+  @media (max-width: $tablet-width) {
+    @content;
+  }
+}
+
+@mixin media-tablet-1 {
+  @media (max-width: $tablet-width - 1) {
+    @content;
+  }
+}
+
+@mixin media-not-tablet-1 {
+  @media (min-width: $tablet-width) {
+    @content;
+  }
+}
+
+@mixin media-tablet-landscape {
+  @media (max-width: 1280px) {
+    @content;
+  }
+}
+
+@mixin media-desktop {
+  @media (min-width: $mobile-width + 1) {
+    @content;
+  }
+}
+
+@mixin media-desktop-1 {
+  @media (min-width: $mobile-width) {
+    @content;
+  }
+}
+
+@mixin media-desktop-xlarge {
+  @media (min-width: 1440px) {
+    @content;
+  }
+}
+
+@mixin media-desktop-xlarge- {
+  @media (max-width: 1439px) {
+    @content;
+  }
+}
+
+@mixin media-tablet1 {
+  @media (min-width: $tablet-width + 1) {
+    @content;
+  }
+}
+
+@mixin media-hover {
+  @media (min-width: $tablet-width + 1) {
+    @content;
+  }
+}
+
+@mixin filter-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 188px;
+  height: 60px;
+  border: 1px solid $color-very-light-gray;
+  border-radius: 30px;
+  cursor: pointer;
+  color: $color-lochmara;
+  background-color: $color-white;
+  font-size: 15px;
+  letter-spacing: 0.3px;
+}
+
+@mixin productFilterButton {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  border-radius: 100px;
+  background-color: $color-athens-gray;
+  color: $color-cloud;
+  height: 45px;
+  margin-right: 11px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+
+  &:hover {
+    background-color: $color-iron;
+    color: $color-lochmara;
+    transition: all 0.3s ease;
+
+    button {
+      background-color: $color-bombay;
+      transition: background-color 0.3s ease;
+    }
+  }
+
+  &:focus {
+    background-color: $color-lochmara;
+    color: $color-white;
+  }
+}
+
+@mixin focus-shadow-inset {
+  outline: none;
+  position: relative;
+  cursor: pointer;
+
+  &:focus::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    box-shadow: inset 0 0 50px rgba(0, 0, 0, 0.25);
+    border-radius: inherit;
+  }
+
+  &:active::after {
+    box-shadow: none;
+  }
+}
+
+@mixin mobileSpecBox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: auto;
+  min-width: 130px;
+  height: 50px;
+  background-color: $color-white;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.1);
+  margin-right: 5px;
+  padding: 0 15px;
+}
+
+@mixin productFilterButton {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  border-radius: 100px;
+  background-color: $color-athens-gray;
+  color: $color-cloud;
+  height: 45px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+
+  &:global(.active) {
+    background-color: $color-lochmara;
+    color: $color-white;
+  }
+}

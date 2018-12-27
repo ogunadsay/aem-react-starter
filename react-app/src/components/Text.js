@@ -17,7 +17,7 @@ import React, {Component} from 'react';
 import {extractModelId} from '../Utils';
 import {MapTo} from '@adobe/cq-react-editable-components';
 
-require('./Text.css');
+import './Text.css';
 
 /**
  * Default Edit configuration for the Text component that interact with the Core Text component and sub-types
@@ -36,7 +36,7 @@ const TextEditConfig = {
 /**
  * Text React component
  */
-class Text extends Component {
+export default class Text extends Component {
 
     get richTextContent() {
         return <div id={extractModelId(this.props.cqPath)} data-rte-editelement dangerouslySetInnerHTML={{__html:  this.props.text}}/>;

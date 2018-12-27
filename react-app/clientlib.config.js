@@ -33,6 +33,9 @@ module.exports = {
             ],
             css: [
                 "dist/**/*.css"
+            ],
+            png: [
+                "dist/**/*.png"
             ]
         }
     }

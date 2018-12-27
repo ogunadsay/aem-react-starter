@@ -1,0 +1,156 @@
+.root,
+.slide {
+  height: 591px;
+
+  @include media-mobile {
+    height: 100vh;
+    min-height: 500px;
+  }
+
+  &.modular {
+    height: 472px;
+
+    @include media-mobile {
+      height: 472px;
+      min-height: 472px;
+    }
+  }
+}
+
+.root {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  color: $color-white;
+  overflow: hidden;
+  z-index: 0; //Don't remove it
+  background-image: radial-gradient(circle at center, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0) 100%);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  .headerPattern {
+    z-index: -1;
+    width: 1440px;
+    height: 200%;
+    bottom: 0;
+
+    @include media-tablet {
+      width: 100%;
+    }
+  }
+}
+
+.bgColor {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.labelImage {
+  display: block;
+  position: absolute;
+}
+
+.parallaxImage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+
+.parallaxImage:global(.edgeImages) {
+  background-position: left 0 bottom 0, right 0 bottom 0;
+}
+
+.parallaxImage:global(.repeatImageY) {
+  background-repeat: repeat-y;
+}
+
+.slider {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.slider :global(.slick-dots) {
+  position: absolute;
+  bottom: 60px;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+
+  li {
+    margin-left: 13px;
+  }
+
+  li:first-child {
+    margin-left: 0;
+  }
+
+  button {
+    display: block;
+    width: 6px;
+    height: 6px;
+    padding: 0;
+    border: none;
+    border-radius: 100%;
+    background-color: $color-heather;
+    text-indent: -9999px;
+    transition: transform 0.3s ease;
+  }
+
+  @include media-mobile {
+    bottom: 122px;
+  }
+}
+
+.slider :global(.slick-dots .slick-active) {
+  button {
+    transform: scale(1.67);
+    background-color: $color-white;
+  }
+}
+
+.slide {
+  width: 100%;
+  position: relative;
+}
+
+.slideImage {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.slideContent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}

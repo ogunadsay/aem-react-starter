@@ -1,0 +1,259 @@
+/* Webfont: Core Sans */
+@font-face {
+  font-family: 'Core Sans';
+  src: url('./fonts/Core-Sans/CoreSansC-75ExtraBold.woff2') format('woff2'),
+      url('./fonts/Core-Sans/CoreSansC-75ExtraBold.woff') format('woff');
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Core Sans';
+  src: url('./fonts/Core-Sans/CoreSansC-15Thin.woff2') format('woff2'),
+      url('./fonts/Core-Sans/CoreSansC-15Thin.woff') format('woff');
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Core Sans';
+  src: url('./fonts/Core-Sans/CoreSansC-95BlackIt.woff2') format('woff2'),
+      url('./fonts/Core-Sans/CoreSansC-95BlackIt.woff') format('woff');
+  font-weight: 900;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Core Sans';
+  src: url('./fonts/Core-Sans/CoreSansC-15ThinIt.woff2') format('woff2'),
+      url('./fonts/Core-Sans/CoreSansC-15ThinIt.woff') format('woff');
+  font-weight: 100;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Core Sans';
+  src: url('./fonts/Core-Sans/CoreSansC-95Black.woff2') format('woff2'),
+      url('./fonts/Core-Sans/CoreSansC-95Black.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Core Sans';
+  src: url('./fonts/Core-Sans/CoreSansC-85HeavyIt.woff2') format('woff2'),
+      url('./fonts/Core-Sans/CoreSansC-85HeavyIt.woff') format('woff');
+  font-weight: 900;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Core Sans';
+  src: url('./fonts/Core-Sans/CoreSansC-45RegularIt.woff2') format('woff2'),
+      url('./fonts/Core-Sans/CoreSansC-45RegularIt.woff') format('woff');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Core Sans';
+  src: url('./fonts/Core-Sans/CoreSansC-85Heavy.woff2') format('woff2'),
+      url('./fonts/Core-Sans/CoreSansC-85Heavy.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Core Sans';
+  src: url('./fonts/Core-Sans/CoreSansC-65BoldIt.woff2') format('woff2'),
+      url('./fonts/Core-Sans/CoreSansC-65BoldIt.woff') format('woff');
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Core Sans';
+  src: url('./fonts/Core-Sans/CoreSansC-25ExtraLightIt.woff2') format('woff2'),
+      url('./fonts/Core-Sans/CoreSansC-25ExtraLightIt.woff') format('woff');
+  font-weight: 200;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Core Sans';
+  src: url('./fonts/Core-Sans/CoreSansC-35LightIt.woff2') format('woff2'),
+      url('./fonts/Core-Sans/CoreSansC-35LightIt.woff') format('woff');
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Core Sans';
+  src: url('./fonts/Core-Sans/CoreSansC-55MediumIt.woff2') format('woff2'),
+      url('./fonts/Core-Sans/CoreSansC-55MediumIt.woff') format('woff');
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Core Sans';
+  src: url('./fonts/Core-Sans/CoreSansC-55Medium.woff2') format('woff2'),
+      url('./fonts/Core-Sans/CoreSansC-55Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Core Sans';
+  src: url('./fonts/Core-Sans/CoreSansC-75ExtraBoldIt.woff2') format('woff2'),
+      url('./fonts/Core-Sans/CoreSansC-75ExtraBoldIt.woff') format('woff');
+  font-weight: 800;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Core Sans';
+  src: url('./fonts/Core-Sans/CoreSansC-45Regular.woff2') format('woff2'),
+      url('./fonts/Core-Sans/CoreSansC-45Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Core Sans';
+  src: url('./fonts/Core-Sans/CoreSansC-65Bold.woff2') format('woff2'),
+      url('./fonts/Core-Sans/CoreSansC-65Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Core Sans';
+  src: url('./fonts/Core-Sans/CoreSansC-35Light.woff2') format('woff2'),
+      url('./fonts/Core-Sans/CoreSansC-35Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Core Sans';
+  src: url('./fonts/Core-Sans/CoreSansC-25ExtraLight.woff2') format('woff2'),
+      url('./fonts/Core-Sans/CoreSansC-25ExtraLight.woff') format('woff');
+  font-weight: 200;
+  font-style: normal;
+}
+
+/* Webfont: Soho */
+@font-face {
+  font-family: 'SohoGothicPro';
+  src: url('./fonts/Soho/SohoGothicPro-Ultra.woff2') format('woff2'),
+      url('./fonts/Soho/SohoGothicPro-Ultra.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SohoGothicPro';
+  src: url('./fonts/Soho/SohoGothicPro-MediumItalic.woff2') format('woff2'),
+      url('./fonts/Soho/SohoGothicPro-MediumItalic.woff') format('woff');
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'SohoGothicPro';
+  src: url('./fonts/Soho/SohoGothicPro-ExtraBold.woff2') format('woff2'),
+      url('./fonts/Soho/SohoGothicPro-ExtraBold.woff') format('woff');
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SohoGothicPro';
+  src: url('./fonts/Soho/SohoGothicPro-Italic.woff2') format('woff2'),
+      url('./fonts/Soho/SohoGothicPro-Italic.woff') format('woff');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'SohoGothicPro';
+  src: url('./fonts/Soho/SohoGothicPro-Medium.woff2') format('woff2'),
+      url('./fonts/Soho/SohoGothicPro-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SohoGothicPro';
+  src: url('./fonts/Soho/SohoGothicPro-UltraItalic.woff2') format('woff2'),
+      url('./fonts/Soho/SohoGothicPro-UltraItalic.woff') format('woff');
+  font-weight: 900;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'SohoGothicPro';
+  src: url('./fonts/Soho/SohoGothicPro-Bold.woff2') format('woff2'),
+      url('./fonts/Soho/SohoGothicPro-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SohoGothicPro';
+  src: url('./fonts/Soho/SohoGothicPro-ThinItalic.woff2') format('woff2'),
+      url('./fonts/Soho/SohoGothicPro-ThinItalic.woff') format('woff');
+  font-weight: 100;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'SohoGothicPro';
+  src: url('./fonts/Soho/SohoGothicPro-Light.woff2') format('woff2'),
+      url('./fonts/Soho/SohoGothicPro-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SohoGothicPro';
+  src: url('./fonts/Soho/SohoGothicPro-Thin.woff2') format('woff2'),
+      url('./fonts/Soho/SohoGothicPro-Thin.woff') format('woff');
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SohoGothicPro';
+  src: url('./fonts/Soho/SohoGothicPro-Regular.woff2') format('woff2'),
+      url('./fonts/Soho/SohoGothicPro-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SohoGothicPro';
+  src: url('./fonts/Soho/SohoGothicPro-LightItalic.woff2') format('woff2'),
+      url('./fonts/Soho/SohoGothicPro-LightItalic.woff') format('woff');
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'SohoGothicPro';
+  src: url('./fonts/Soho/SohoGothicPro-BoldItalic.woff2') format('woff2'),
+      url('./fonts/Soho/SohoGothicPro-BoldItalic.woff') format('woff');
+  font-weight: bold;
+  font-style: italic;
+}
+
+/* Webfont: HandOfSeanPro */
+
+@font-face {
+  font-family: 'HandOfSeanPro';
+  src: url('./fonts/HandOfSeanPro/HandOfSeanPro-Regular.woff2') format('woff2'),
+      url('./fonts/HandOfSeanPro/HandOfSeanPro-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
